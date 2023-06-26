@@ -1,0 +1,15 @@
+{
+  "name": "nodejs_apps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wappalyzer_phase.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "wappalyzer": "^6.10.63"
+  }
+}
