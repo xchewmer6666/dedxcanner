@@ -1,0 +1,65 @@
+history | grep 'git'
+git init
+python3.8 main.py -u https://digitalocean.com
+node phase_node_wappalyzer.js https://www.github.com/
+node phase_node_wappalyzer.js https://github.com/
+node phase_node_wappalyzer.js https://github.com
+python3.8 main.py -u https://digitalocean.com/
+python3.8 main.py -u https://www.digitalocean.com
+python3.8 main.py -u https://github.com
+wad -u https://www.digitalocean.com/
+go get github.com/projectdiscovery/wappalyzergo@v0.0.99
+go install -v github.com/projectdiscovery/wappalyzergo/cmd/update-fingerprints@latest
+go install -v github.com/projectdiscovery/wappalyzergo/cmd/update-fingerprints@latest
+go get github.com/projectdiscovery/wappalyzergo/cmd/update-fingerprints@latest
+go install -v github.com/projectdiscovery/wappalyzergo@latest
+go install -v github.com/projectdiscovery/wappalyzergo
+go install -v github.com/rverton/webanalyze/cmd/webanalyze@latest
+GO111MODULE=on go install github.com/jaeles-project/gospider@latest
+git clone https://github.com/vinsec/go-spider.git
+go install github.com/jaeles-project/gospider@latest
+go install github.com/jaeles-project/gospider
+sudo GO111MODULE=on go install -u github.com/jaeles-project/gospider
+sudo GO111MODULE=on go get -u github.com/jaeles-project/gospider
+ping github.com
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+git branch --help | grep -e "M"
+git branch --help
+git push -u origin main
+git branch -M main
+git remote add origin https://github.com/xchewmer6666/amplify-react-graphql.git
+git commit -m "initial commit"
+git init
+git push origin alt2
+git commit -a -m "finished test2"
+proxychains git push origin alt2
+git commit -a -m "finished test1"
+git pull origin alt2
+git commit -a -m "changed from sampler to player and currently testing the module2"
+git push -f origin alt2
+git push -f origin main
+git show-ref
+git checkout
+git rebase --continue
+git commit -a -m "changed from sampler to player and currently testing the module"
+history | grep 'git push'
+git push --rebase origin alt2
+git push -u origin alt2
+history | grep git push
+history | grep git
+git push origin alt
+git commit -a -m "commit1.1.0"
+git push -u origin alt
+git pull --rebase origin alt
+git push --rebase origin alt
+git config --global push.autoSetupRemote true
+git pull origin alt
+git remote add origin https://github.com/xchewmer6666/S4mpl310
+git config --global user.email "xchewmer6666@gmail.com"
+git config --global user.name "xchewmer6666"
+git clone https://github.com/littletsu/p5visuals.git
+git clone https://github.com/patrickloeber/snake-ai-pytorch.git
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
