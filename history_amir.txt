@@ -1,0 +1,8 @@
+ruby index.rb --networking true --url "127.0.0.1"
+ruby index.rb --networking 1 --url "127.0.0.1"
+ruby index.rb --networking --url "127.0.0.1"
+ruby index.rb --networking --url "google.com"
+gem install net-ping
+ping google.com
+ping google
+ruby index.rb --networking --url "www.google.com"
