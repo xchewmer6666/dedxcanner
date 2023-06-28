@@ -1,4 +1,4 @@
-const Wappalyzer = require('wappalyzer')
+const Wappalyzer = require('wappalyzer');
 
 var url = '';
 
@@ -8,11 +8,11 @@ if (process.argv.length === 2) {
 }
 
 if (process.argv[2] && process.argv[2] === '-u') {
-  console.log('[!] url is present.');
+  console.log('[!] nodejs_apps/wappalyzer_phase: url is present.');
   url = process.argv[3];
   console.log(url);
 } else {
-  console.log('[!] url is not present.');
+  console.log('[!] nodejs_apps/wappalyzer_phase: url is not present.');
 }
 
 const options = {

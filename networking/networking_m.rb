@@ -1,6 +1,6 @@
 require_relative "ping_r/ping_r.rb"
 
-def networking_m(url)
+def networking_m url
   puts "[!] networking module init: #{url}"
 
   ping_r url

@@ -1,0 +1,145 @@
+[!] url is present.
+https://google.com/
+{
+  "urls": {
+    "https://google.com/": {
+      "status": 301
+    },
+    "https://www.google.com/": {
+      "status": 200
+    },
+    "https://www.google.com/imghp?hl=en&ogbl": {
+      "status": 200
+    },
+    "https://www.google.com/intl/en/about/products": {
+      "status": 301,
+      "error": "net::ERR_BLOCKED_BY_CLIENT at https://www.google.com/intl/en/about/products (https://www.google.com/intl/en/about/products)"
+    },
+    "https://www.google.com/intl/en_ir/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1": {
+      "status": 301,
+      "error": "net::ERR_BLOCKED_BY_CLIENT at https://www.google.com/intl/en_ir/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1 (https://www.google.com/intl/en_ir/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1)"
+    },
+    "https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1": {
+      "status": 304,
+      "error": "Navigation timeout of 5000 ms exceeded (https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1)"
+    },
+    "https://www.google.com/preferences?hl=en-IR&fg=1": {
+      "status": 200
+    },
+    "https://www.google.com/intl/en/about/products?tab=ih": {
+      "status": 301,
+      "error": "net::ERR_BLOCKED_BY_CLIENT at https://www.google.com/intl/en/about/products?tab=ih (https://www.google.com/intl/en/about/products?tab=ih)"
+    },
+    "https://www.google.com/advanced_image_search?hl=en-IR&fg=1": {
+      "status": 200
+    },
+    "https://www.google.com/history/optout?hl=en-IR&fg=1": {
+      "status": 200
+    },
+    "https://www.google.com/webhp?tab=ww": {
+      "status": 200
+    },
+    "https://www.google.com/webhp?hl=en&tab=ii": {
+      "status": 200
+    },
+    "https://www.google.com/intl/en-GB/about/products": {
+      "status": 301,
+      "error": "net::ERR_BLOCKED_BY_CLIENT at https://www.google.com/intl/en-GB/about/products (https://www.google.com/intl/en-GB/about/products)"
+    },
+    "https://www.google.com/intl/en/about/products?tab=wh": {
+      "status": 301,
+      "error": "net::ERR_BLOCKED_BY_CLIENT at https://www.google.com/intl/en/about/products?tab=wh (https://www.google.com/intl/en/about/products?tab=wh)"
+    },
+    "https://www.google.com/preferences?hl=en-IR": {
+      "status": 200,
+      "error": "Navigation timeout of 5000 ms exceeded (https://www.google.com/preferences?hl=en-IR)"
+    },
+    "https://www.google.com/safesearch?hl=en-IR&prev=https://www.google.com/preferences?hl%3Den-IR&sa=X&ved=0ahUKEwiMrMfLpuP_AhVOYPEDHcJKAykQ8JsICAU": {
+      "status": 200,
+      "error": "Navigation timeout of 5000 ms exceeded (https://www.google.com/safesearch?hl=en-IR&prev=https://www.google.com/preferences?hl%3Den-IR&sa=X&ved=0ahUKEwiMrMfLpuP_AhVOYPEDHcJKAykQ8JsICAU)"
+    },
+    "https://www.google.com/history/optout?hl=en-IR": {
+      "status": 200
+    },
+    "https://www.google.com/advanced_search?hl=en-IR&fg=1": {
+      "status": 200
+    },
+    "https://www.google.com/history/privacyadvisor/search/unauth?utm_source=googlemenu&fg=1&cctld=com": {
+      "status": 301,
+      "error": "net::ERR_BLOCKED_BY_CLIENT at https://www.google.com/history/privacyadvisor/search/unauth?utm_source=googlemenu&fg=1&cctld=com (https://www.google.com/history/privacyadvisor/search/unauth?utm_source=googlemenu&fg=1&cctld=com)"
+    }
+  },
+  "technologies": [
+    {
+      "slug": "google-web-server",
+      "name": "Google Web Server",
+      "description": null,
+      "confidence": 100,
+      "version": null,
+      "icon": "Google.svg",
+      "website": "https://en.wikipedia.org/wiki/Google_Web_Server",
+      "cpe": "cpe:2.3:a:google:web_server:*:*:*:*:*:*:*:*",
+      "categories": [
+        {
+          "id": 22,
+          "slug": "web-servers",
+          "name": "Web servers"
+        }
+      ],
+      "rootPath": true
+    },
+    {
+      "slug": "recaptcha",
+      "name": "reCAPTCHA",
+      "description": "reCAPTCHA is a free service from Google that helps protect websites from spam and abuse.",
+      "confidence": 100,
+      "version": null,
+      "icon": "reCAPTCHA.svg",
+      "website": "https://www.google.com/recaptcha/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 16,
+          "slug": "security",
+          "name": "Security"
+        }
+      ]
+    },
+    {
+      "slug": "hsts",
+      "name": "HSTS",
+      "description": "HTTP Strict Transport Security (HSTS) informs browsers that the site should only be accessed using HTTPS.",
+      "confidence": 100,
+      "version": null,
+      "icon": "default.svg",
+      "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 16,
+          "slug": "security",
+          "name": "Security"
+        }
+      ],
+      "rootPath": true
+    },
+    {
+      "slug": "http-3",
+      "name": "HTTP/3",
+      "description": "HTTP/3 is the third major version of the Hypertext Transfer Protocol used to exchange information on the World Wide Web.",
+      "confidence": 100,
+      "version": null,
+      "icon": "HTTP3.svg",
+      "website": "https://httpwg.org/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 19,
+          "slug": "miscellaneous",
+          "name": "Miscellaneous"
+        }
+      ],
+      "rootPath": true
+    }
+  ]
+}
