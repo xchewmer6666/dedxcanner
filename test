@@ -1,27 +1,6 @@
-PING google.com (216.239.38.120): 56 data bytes
-64 bytes from 216.239.38.120: icmp_seq=0 ttl=105 time=69.406 ms
-64 bytes from 216.239.38.120: icmp_seq=1 ttl=105 time=66.875 ms
-64 bytes from 216.239.38.120: icmp_seq=2 ttl=105 time=62.644 ms
-64 bytes from 216.239.38.120: icmp_seq=3 ttl=105 time=68.151 ms
-64 bytes from 216.239.38.120: icmp_seq=4 ttl=105 time=80.961 ms
-64 bytes from 216.239.38.120: icmp_seq=5 ttl=105 time=81.677 ms
-64 bytes from 216.239.38.120: icmp_seq=6 ttl=105 time=60.427 ms
-64 bytes from 216.239.38.120: icmp_seq=7 ttl=105 time=65.397 ms
-64 bytes from 216.239.38.120: icmp_seq=8 ttl=105 time=73.805 ms
-64 bytes from 216.239.38.120: icmp_seq=9 ttl=105 time=64.512 ms
-64 bytes from 216.239.38.120: icmp_seq=10 ttl=105 time=70.849 ms
-64 bytes from 216.239.38.120: icmp_seq=11 ttl=105 time=75.916 ms
-64 bytes from 216.239.38.120: icmp_seq=12 ttl=105 time=70.629 ms
-64 bytes from 216.239.38.120: icmp_seq=13 ttl=105 time=72.939 ms
-64 bytes from 216.239.38.120: icmp_seq=14 ttl=105 time=64.433 ms
-64 bytes from 216.239.38.120: icmp_seq=15 ttl=105 time=71.622 ms
-64 bytes from 216.239.38.120: icmp_seq=16 ttl=105 time=67.396 ms
-64 bytes from 216.239.38.120: icmp_seq=17 ttl=105 time=66.331 ms
-64 bytes from 216.239.38.120: icmp_seq=18 ttl=105 time=67.465 ms
-64 bytes from 216.239.38.120: icmp_seq=19 ttl=105 time=65.826 ms
-64 bytes from 216.239.38.120: icmp_seq=20 ttl=105 time=248.667 ms
-64 bytes from 216.239.38.120: icmp_seq=21 ttl=105 time=84.741 ms
+PING github.com (140.82.121.4): 56 data bytes
+64 bytes from 140.82.121.4: icmp_seq=0 ttl=64 time=1.491 ms
 
---- google.com ping statistics ---
-22 packets transmitted, 22 packets received, 0.0% packet loss
-round-trip min/avg/max/stddev = 60.427/78.212/248.667/37.695 ms
+--- github.com ping statistics ---
+1 packets transmitted, 1 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 1.491/1.491/1.491/0.000 ms

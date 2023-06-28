@@ -1,6 +1,6 @@
 require 'optparse'
-require_relative 'networking/networking_m.rb'
-require_relative 'web/web_m.rb'
+
+Dir[File.join(__dir__, '*', '*.rb')].each { |file| require file }
 
 def banner
   logo = `cat logo.txt`
@@ -16,6 +16,8 @@ def main
     opt.on('--networking NETWORKING') { |o| options[:networking] = o }
     opt.on('--web WEB') { |o| options[:web] = o }
   end.parse!
+
+  recon_m options[:url]
 
   if options[:networking] and options[:url]
     networking_m options[:url]
