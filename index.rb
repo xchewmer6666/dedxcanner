@@ -17,15 +17,28 @@ def main
     opt.on('--web WEB') { |o| options[:web] = o }
   end.parse!
 
-  recon_m options[:url]
+  url_spl_scheme = options[:url].split(/http.?:\/\//)
+  url_spl_www = options[:url].split()
+
+  if url_spl_scheme.length == 2
+    puts "[+] url_spl_scheme: #{url_spl_scheme}"
+    puts "[+] url_spl_www: #{url_spl_www}"
+    recon_m url_spl_scheme[1]
+  else
+    recon_m options[:url]
+  end
+
+  target_ip = `cat '/Users/xchewmer/tools/dedxcanner/outputs/target_ip.out'`
+  puts "[!] target ip is: #{target_ip}"
 
   if options[:networking] and options[:url]
-    networking_m options[:url]
+    networking_m(options[:url], target_ip)
   end
 
   if options[:web] and options[:url]
     web_m options[:url]    
   end
+
 end
 
 main

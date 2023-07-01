@@ -1,9 +1,9 @@
-require_relative "ping_r/ping_r.rb"
+Dir[File.join(__dir__, '*_r', '*.rb')].each { |file| require file }
+Dir[File.join(__dir__, '*_r_m', '*.rb')].each { |file| require file }
 
-def networking_m url
+def networking_m(url, ip)
   puts "[!] networking module init: #{url}"
 
   ping_r url
-  puts '[!] bash ping'
-  puts `python3.8 ~/tools/dedxcanner/networking/bash_ping_m/bash_ping_r.py --url #{url}`
+  nmap_r ips
 end
